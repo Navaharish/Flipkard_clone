@@ -1,6 +1,8 @@
+import Endlink from './Component/Endlink';
 import Hero from './Component/Hero';
 import Navbar from './Component/Navbar';
 import Product from './Component/Product';
+import Sigin from './Component/Sigin';
 import './style.css'
 function App() {
 
@@ -9,6 +11,9 @@ function App() {
       <Navbar />
       <Hero />
       <Product />
+      <Sigin />
+      <Endlink />
+
     </div>
   );
 }

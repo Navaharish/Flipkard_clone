@@ -8,10 +8,10 @@ import carouselVideo from '../Images/carouselVideo.mp4'
 
 const Hero = () => {
     const slides = [
-        bigCarousel2,
-        bigCarousel3,
-        bigCarousel,
         bigCarousel4,
+        bigCarousel3,
+        bigCarousel2,
+        bigCarousel,
     ]
     return (
         <div className='max-m-lg top-0'>
