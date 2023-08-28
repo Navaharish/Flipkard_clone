@@ -1,3 +1,4 @@
+import CardDetail from './Component/CardDetail';
 import Endlink from './Component/Endlink';
 import Hero from './Component/Hero';
 import Navbar from './Component/Navbar';
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Product />
+      <CardDetail />
       <Sigin />
       <Endlink />
 
